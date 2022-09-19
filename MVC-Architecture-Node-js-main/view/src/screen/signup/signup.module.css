@@ -1,0 +1,16 @@
+button.btn_main{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+section.auth_account{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.auth_account h1{
+    margin: 0px 0 30px !important;
+}
