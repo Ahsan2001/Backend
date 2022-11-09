@@ -6,7 +6,7 @@
 
         $("#yourID").each(function(k, v){
             if($(v).text() === "Products By Industry"){
-                $(v).attr("href", "https://www.vestil.com/industry-all.php");
+                $(v).attr("href", "address");
             }
         });
       
@@ -17,7 +17,7 @@
             if($(this).text() === "Products By Industry"){
             
                 setTimeout(function(){
-                    window.open("https://www.vestil.com/industry-all.php", '_blank');
+                    window.open("address", '_blank');
                 }, 3000)
             }
         })
